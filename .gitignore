@@ -1,3 +1,10 @@
+#Orchestate-specific gitignore rules
+.env
+.env.local
+*.db
+*.sqlite
+data/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -31,6 +38,10 @@ MANIFEST
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
+
+#IDE
+.vscode/
+.idea/
 
 # Installer logs
 pip-log.txt
@@ -70,6 +81,10 @@ instance/
 
 # Sphinx documentation
 docs/_build/
+
+# OS
+.DS_Store
+Thumbs.db
 
 # PyBuilder
 .pybuilder/
@@ -126,6 +141,13 @@ ipython_config.py
 
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
 __pypackages__/
+
+
+#Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
 
 # Celery stuff
 celerybeat-schedule

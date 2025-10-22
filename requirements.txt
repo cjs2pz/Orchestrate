@@ -1,0 +1,4 @@
+# Core utilities (Phase 1 - Canvas only)
+python-dotenv==1.0.0          # Load environment variables from .env
+requests==2.31.0              # HTTP client for Canvas API
+python-dateutil==2.8.2        # Parse Canvas date strings
