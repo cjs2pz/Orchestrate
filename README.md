@@ -1,2 +1,2 @@
 # Orchestrate
-An autonomous AI agent system that aggregates assignment deadlines from Canvas, Gmail, and PDFs, uses LLMs to intelligently prioritize tasks, and syncs to Notion. Built with Python and LangChain and deployed via GitHub Actions for serverless academic workflow automation.
+Autonomous agent system that aggregates assignments, job applications, emails, and finances from multiple sources (Canvas, Gmail, Outlook), uses LLM intelligence to prioritize across academic, career, and financial domains, then presents unified insights through a custom dashboard. Built with LangGraph, GPT-4o-mini, and Next.js.
